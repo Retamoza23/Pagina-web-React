@@ -1,0 +1,318 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.seccion {
+  padding: 20px;
+  margin: 20px;
+}
+
+.seccion h2 {
+  color: #333;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.contacto {
+  margin-top: 20px;
+  color: white;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto div {
+  margin-bottom: 10px;
+}
+
+.contacto label {
+  margin-bottom: 5px;
+}
+
+.contacto input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contacto button:hover {
+  background-color: #45a049;
+}
+
+
+.autos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.auto-item {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+}
+
+.auto-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.auto-item h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.auto-item p {
+  color: #555;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.seccion-inicio h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.seccion-inicio p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.login-form div {
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+/* Fondo para la sección de inicio */
+.seccion-inicio {
+  background-image: url('./assets/fondo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Estilo para la lista de autos */
+.autos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.auto-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.auto-item img {
+  width: 100%;
+  height: auto;
+}
+
+.seccion-autos {
+  background-image: url('./assets/fondo2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+
+.contacto-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.contact-info a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+.seccion-inicio h2 {
+  display: block;
+  background-color: #252424a0; 
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+
+.seccion-inicio p {
+  display: block;
+  background-color: #252424a4; 
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.contacto-container{
+  background-image: url('./assets/fondo3.png'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
